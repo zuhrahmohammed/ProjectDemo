@@ -18,7 +18,7 @@ def check():
     return render_template("index.html", score=round(score, 4), message=message)
 
 
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    print(f"Starting app on port {port}...")
-    app.run(host="0.0.0.0", port=port, debug=False)  # from before: app.run(host="0.0.0.0",port=port debug=False)
+#if __name__ == "__main__":
+ #   port = int(os.environ.get("PORT", 5000))
+ #   print(f"Starting app on port {port}...")
+ #   app.run(host="0.0.0.0", port=port, debug=False)  # from before: app.run(host="0.0.0.0",port=port debug=False)
